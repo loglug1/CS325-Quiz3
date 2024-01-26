@@ -7,7 +7,7 @@ while not valid_input:
         user_input = float(user_input)
         result = user_input ** 2
         
-        print(f"The square of {user_input} is: {result}")
+        print(f"{result} is the result of {user_input} squared.")
         valid_input = True
     else:
         print("Invalid input. Please enter a numerical value.")
