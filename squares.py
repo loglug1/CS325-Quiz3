@@ -10,4 +10,4 @@ while not valid_input:
         print(f"{result} is the exact result of {user_input} squared!")
         valid_input = True
     else:
-        print("Invalid input. Please enter a numerical value.")
+        print("Input is not a number. Please enter a number.")
